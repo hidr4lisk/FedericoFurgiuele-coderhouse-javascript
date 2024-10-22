@@ -104,7 +104,7 @@ function desarmarBomba(bomba){
     let cortarCable
     for(let i=0;i<3;i++){        
         while (true) {
-            cortarCable = prompt("¿Qué cable cortamos primero?\n¿rojo, verde o azul?").toLowerCase()
+            cortarCable = prompt("¿Qué cable cortamos?\n¿rojo, verde o azul?").toLowerCase()
             if (cortarCable === "rojo" || cortarCable === "verde" || cortarCable === "azul") {
                 cables[i]=cortarCable
             break
